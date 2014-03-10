@@ -1,0 +1,4001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://josm.openstreetmap.de/mappaint-style-1.0"
+       author="yopaseopor" 
+       shortdescription="traffic_signs_" 
+       es.shortdescription="señales_tráfico_" 
+	   ca.shortdescription="senyals_trànsit_"
+       description="Display all the signs you put the info in osm.Specially recomended with roadsigns pluggin" 
+       es.description="Muestra las señales de tráfico introducidas en osm.Especialmente recomendado con el pluggin roadsigns preset España." 
+version="1.[[revision]]_[[date]]">
+   
+   <!-- Based on Speedlimit Signs from Martin Koppenhoefer-->
+
+   <!-- Rules to display icons on nodes. Suggested tagging (additionally to setting the restriction on the highway):
+traffic_sign=maxspeed
+maxspeed=<restriction in km/h on the sign>
+    PLEASE NOTE: maxspeed=7 is mapped on 5 and maxspeed=8 is mapped on 10
+ -->
+
+<!-- -->
+
+<!-- Proves a partir d'aquí.  -->
+
+<rule>
+<condition k="highway" v="milestone"/>
+<icon src="traffic_signs/ES/ES_s573.png" priority="10000" />
+        </rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1a.png" priority="10000" />
+        </rule>
+		
+<rule>
+<condition k="traffic_sign" v="ES:p1a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1a.png" priority="10000" />
+        </rule>
+		
+<rule>
+<condition k="traffic_sign" v="ES:ruta_europea"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_ruta_europea_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="motorway"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_motorway_b.png" priority="10000" />
+</rule>
+        <rule>
+<condition k="traffic_sign" v="ES_motorway"/>
+<condition k="side" v="left"/>
+<icon src="vehicle/restrictions/ES_motorway_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:trunk"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_trunk_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:primary"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_primary_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:secondary"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_secondary_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:tertiary"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_tertiary_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="tertiary"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_tertiary_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1d"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1d_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p2"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p3"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p3_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="traffic_sign"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p3_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p4"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p4_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="junction" v="roundabout"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p4_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="junction" v="roundabout"/>
+<condition k="highway" v="give_way"/>
+<condition k="traffic_sign" v="ES:p4"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p4_r1_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="bridge" v="drawbridge"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p5_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="railway" v="tram"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p6_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="level_crossing" v="automatic_barrier"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p7_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="level_crossing" v="uncontrolled"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p8_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p9a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p9b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p9c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p10a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p10b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p10c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p11"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p11_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p11a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p11a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p12"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p12_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p13a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p13a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p13b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p13b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p14a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p14a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p14b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p14b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_calming" v="rumble_strip"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p15_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_calming" v="bump"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p15a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p16b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p16b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p16a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p16a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p17b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p17b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p17a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p17a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="narrow" v="yes"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p17_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p19"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p19_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="passing_place"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p20_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p21"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p21_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p22"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p22_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="route" v="horse"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p23_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p23"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p23_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="boundary" v="protected_area"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p24_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="oneway" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p25_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="natural" v="scree"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p26_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="man_made" v="pier"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p27_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="surface" v="fine_gravel"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p28_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="aeroway" v="windsock"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p29_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="shoulder" v="yes"/>
+<condition k="layer" v="-1"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p30_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="jams" v="yes"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p31_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p33"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p33_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p34"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p34_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p50"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p50_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:tp18"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_tp18_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r1"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r1_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="give_way"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r1_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r2"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="stop"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r3"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r3_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r4"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r4_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r5"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r5_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="priority" v="left"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r5_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r6"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r6_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="priority" v="right"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r6_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r100"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r100_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="access" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r100_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r101"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r101_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motor_vehicle" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r102_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcar" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r103_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcycle" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r104_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r105"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r105_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r106"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r106_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hgv" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r106_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r107"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r107_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hazmat" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r108_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r108"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r108_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r109"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r109_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r110"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r110_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="agricultural" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r111_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r112"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r112_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r113"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r113_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="bicycle" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r114_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r114"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r114_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r115"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r115_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="foot" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r116_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r116"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r116_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="horse" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r117_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r117"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r117_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="barrier" v="border_control"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r200_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r200"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r200_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="barrier" v="toll_booth"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r200a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r201"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r201_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r202"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r202_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r203"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r203_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r204"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r204_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r205"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r205_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r300"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r300_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="10"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-10_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="20"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-20_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="30"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-30_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="40"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-40_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="50"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-50_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="60"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-60_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="70"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-70_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="80"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-80_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="90"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-90_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="100"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-100_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="110"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-110_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="120"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-120_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="130"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-130_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="140"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r301-140_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r302"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r302_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r303"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r303_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r304"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r304_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r305"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r305_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="overtaking:hgv" v="no"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r306_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:left" v="no_stopping"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r307_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:right" v="no_stopping"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r307_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:right" v="no_parking"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r308_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:left" v="no_parking"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r308_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r309"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r309_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r310"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r310_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="restriction" v="only_right_turn"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400d"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400d_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400e"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r400e_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r401a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r401a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r401b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r401b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r402"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r402_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r403a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r403b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r403c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcar" v="designated"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r404_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcycle" v="designated"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r405_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hgv" v="designated"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r406_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="bridleway"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r408_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="pedestrian"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r410_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r412"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r412_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r413"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r413_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r414"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r414_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r415"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r415_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r416"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r416_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r417"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r417_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r418"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r418_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="overtaking:hgv" v="yes"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r503_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r504"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r504_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r505"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_r505_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s1"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s1_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s1a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s1a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s2"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s2a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s2a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="tunnel" v="yes"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s5_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s6"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s6_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s7"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s7_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s7"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s7_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s9"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s9_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s10"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s10_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="oneway" v="yes"/>
+<condition k="lanes" v="1"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s11_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s11a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s11a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s11b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s11b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s12"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s12_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s13"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s13_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="crossing"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s13_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s14a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s14a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s14b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s14b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s15a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s15a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="noexit" v="yes"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s15a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="turning_circle"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s15a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="escape"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s16_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s17"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s17_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s21"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s21_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s22"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s22_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s23"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s23_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s24"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s24_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s25"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s25_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s25,ES:com:s800"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s25_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26a"/>
+<condition k="distance" v="300"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s26a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26b"/>
+<condition k="distance" v="200"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s26b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26c"/>
+<condition k="distance" v="100"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s26c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s27"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s27_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="emergency" v="phone"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s27_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s31"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s31_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s32"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s32_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s33"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s33_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s34"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s34_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s34a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s34a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s50a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s50b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50c"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s50c_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50d"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s50d_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50e"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s50e_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="bus_stop"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s51_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="bus_stop"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s51_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s51"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s51_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s52_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s52a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s52b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s53"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s53_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s53b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s53b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s60a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s60a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s60b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s60b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s61a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s61a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s61b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s61b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s62a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s62a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s62b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s62b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s63"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s63_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s64a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s64a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s64b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s64b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="doctors"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s100_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="clinic"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s101_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s102"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s102_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="shop" v="hardware"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s103_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="telephone"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s104_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="fuel"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s105_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s106"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s106_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="tourism" v="camp_site"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s107_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s107"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s107_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s108"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s108_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s109"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s109_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s110"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s110_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s111"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s111_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s112"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s112_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s113"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s113_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s114"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s114_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s115"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s115_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s116"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s116_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s117"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s117_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s118"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s118_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s119"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s119_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s120"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s120_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s121"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s121_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s122"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s122_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s123"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s123_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s124"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s124_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s125"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s125_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s126"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s126_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s200"/>
+<condition k="junction" v="roundabout"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s200_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s200"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s200_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s220"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s220_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s222"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s222_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s222a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s222a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s225"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s225_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s230"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s230a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s230a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s232"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s232_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s232a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s232a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s235"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s235_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s235a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s235a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s242"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s242_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s242a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s242a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s250"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s250_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s260"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s260_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s261"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s261_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s263"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s263_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s263a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s263a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s310"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s310_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s310,"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s310_b.png" priority="10000" />
+</rule>
+<rule>
+<condition k="traffic_sign" v="ES:s310;"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s310_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s320"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s320_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s351"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s351_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="city_limit"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s500_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s510"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s510_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s520"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s520_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s540"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s540_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s570"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s570_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s570a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s570a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s571"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s571_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s572"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s572_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s573"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s573_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s574_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s574a_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574b"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s574b_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s575"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s575_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s600"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s600_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s602"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s602_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s610"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s610_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s700"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s700_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s710"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s710_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s720"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s720_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s730"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s730_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s740"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s740_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s750"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s750_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s760"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s760_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s770"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s770_b.png" priority="10000" />
+</rule>
+
+<!-- Aquí comencen les catalanes -->
+
+<rule>
+<condition k="traffic_sign" v="CAT:radar"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_radar_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,,"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,,,"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230b,"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,ES:com:s800"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s230_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s300"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s300_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s351"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s351_b.png" priority="10000" />
+</rule>
+
+
+<rule>
+<condition k="traffic_sign" v="CAT:s600"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s600_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s700"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_s700_b.png" priority="10000" />
+</rule>
+
+<!-- Aquí comencen les suplementàries -->
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s800"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s800_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s820"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s820_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s821"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s821_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s830"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s830_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s840"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s840_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s850"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s850_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s851"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s851_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s852"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s852_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s853"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s853_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:com:s860"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_com_s860_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:com:s860;ES:p50"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/CAT_com_s860_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s870"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_com_s870_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left:2"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left:3"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_3_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right:2"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_2_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right:3"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_3_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:light"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_panel_light_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:road:beacon:big"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_road_beacon_big_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:road:beacon:little"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_road_beacon_little_b.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s900"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s900_b.png" priority="10000" />
+        </rule>
+
+		<rule>
+<condition k="traffic_sign" v="ES:s920"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s920_b.png" priority="10000" />
+        </rule>
+<rule>
+<condition k="traffic_sign" v="ES:s940"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_s940_b.png" priority="10000" />
+        </rule>
+
+
+<!-- Proves a partir d'aquí.  -->
+
+<rule>
+<condition k="traffic_sign" v="ES:p1a"/>
+<condition k="side" v="left"/>
+<icon src="traffic_signs/ES/ES_p1a_b.png" priority="10000" />
+        </rule>
+
+<!-- -->
+<rule>
+<condition k="traffic_sign" v="ES:ruta_europea"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_ruta_europea" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="motorway"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_motorway_f.png" priority="10000" />
+</rule>
+        <rule>
+<condition k="traffic_sign" v="ES_motorway"/>
+<condition k="side" v="right"/>
+<icon src="vehicle/restrictions/ES_motorway_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:trunk"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_trunk_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:primary"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_primary_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:secondary"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_secondary_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:tertiary"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_tertiary_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="tertiary"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_tertiary_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p1d"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p1d_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p2"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p3"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p3_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="traffic_sign"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p3_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p4"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p4_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="junction" v="roundabout"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p4_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="junction" v="roundabout"/>
+<condition k="highway" v="give_way"/>
+<condition k="traffic_sign" v="ES:p4"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p4_r1_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="bridge" v="drawbridge"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p5_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="railway" v="tram"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p6_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="level_crossing" v="automatic_barrier"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p7_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="level_crossing" v="uncontrolled"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p8_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p9a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p9b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p9c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p9c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p10a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p10b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p10c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p10c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p11"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p11_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p11a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p11a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p12"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p12_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p13a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p13a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p13b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p13b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p14a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p14a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p14b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p14b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_calming" v="rumble_strip"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p15_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_calming" v="bump"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p15a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p16b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p16b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p16a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p16a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p17b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p17b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p17a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p17a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="narrow" v="yes"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p17_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p19"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p19_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="passing_place"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p20_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p21"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p21_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p22"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p22_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="route" v="horse"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p23_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p23"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p23_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="boundary" v="protected_area"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p24_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="oneway" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p25_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="natural" v="scree"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p26_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="man_made" v="pier"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p27_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="surface" v="fine_gravel"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p28_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="aeroway" v="windsock"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p29_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="shoulder" v="yes"/>
+<condition k="layer" v="-1"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p30_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="jams" v="yes"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p31_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p33"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p33_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p34"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p34_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:p50"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_p50_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:tp18"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_tp18_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r1"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r1_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="give_way"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r1_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r2"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="stop"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r3"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r3_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r4"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r4_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r5"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r5_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="priority" v="left"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r5_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r6"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r6_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="priority" v="right"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r6_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r100"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r100_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="access" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r100_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r101"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r101_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motor_vehicle" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r102_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcar" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r103_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcycle" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r104_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r105"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r105_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r106"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r106_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hgv" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r106_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r107"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r107_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hazmat" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r108_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r108"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r108_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r109"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r109_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r110"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r110_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="agricultural" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r111_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r112"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r112_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r113"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r113_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="bicycle" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r114_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r114"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r114_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r115"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r115_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="foot" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r116_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r116"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r116_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="horse" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r117_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r117"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r117_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="barrier" v="border_control"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r200_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r200"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r200_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="barrier" v="toll_booth"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r200a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r201"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r201_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r202"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r202_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r203"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r203_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r204"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r204_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r205"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r205_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r300"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r300_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="10"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-10_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="20"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-20_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="30"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-30_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="40"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-40_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="50"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-50_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="60"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-60_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="70"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-70_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="80"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-80_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="90"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-90_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="100"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-100_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="110"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-110_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="120"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-120_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="130"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-130_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="maxspeed" v="140"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r301-140_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r302"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r302_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r303"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r303_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r304"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r304_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r305"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r305_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="overtaking:hgv" v="no"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r306_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:left" v="no_stopping"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r307_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:right" v="no_stopping"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r307_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:right" v="no_parking"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r308_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="parking_lane:left" v="no_parking"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r308_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r309"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r309_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r310"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r310_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="restriction" v="only_right_turn"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400d"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400d_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r400e"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r400e_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r401a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r401a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r401b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r401b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r402"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r402_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r403a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r403b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r403c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r403c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcar" v="designated"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r404_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="motorcycle" v="designated"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r405_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="hgv" v="designated"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r406_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="bridleway"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r408_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="pedestrian"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r410_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r412"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r412_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r413"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r413_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r414"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r414_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r415"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r415_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r416"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r416_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r417"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r417_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r418"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r418_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="overtaking:hgv" v="yes"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r503_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r504"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r504_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:r505"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_r505_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s1"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s1_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s1a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s1a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s2"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s2a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s2a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="tunnel" v="yes"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s5_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s6"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s6_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s9"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s9_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s10"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s10_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="oneway" v="yes"/>
+<condition k="lanes" v="1"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s11_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s11a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s11a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s11b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s11b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s12"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s12_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s13"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s13_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="crossing"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s13_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s14a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s14a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s14b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s14b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s15a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s15a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="noexit" v="yes"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s15a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="turning_circle"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s15a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="escape"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s16_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s17"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s17_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s21"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s21_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s22"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s22_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s23"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s23_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s24"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s24_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s25"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s25_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s25,ES:com:s800"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s25_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26a"/>
+<condition k="distance" v="300"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s26a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26b"/>
+<condition k="distance" v="200"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s26b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s26c"/>
+<condition k="distance" v="100"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s26c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s27"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s27_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="emergency" v="phone"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s27_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s31"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s31_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s32"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s32_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s33"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s33_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s34"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s34_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s34a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s34a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s50a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s50b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50c"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s50c_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50d"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s50d_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s50e"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s50e_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="bus_stop"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s51_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="highway" v="bus_stop"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s51_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s51"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s51_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s52_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s52a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s52b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s52b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s53"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s53_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s53b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s53b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s60a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s60a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s60b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s60b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s61a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s61a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s61b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s61b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s62a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s62a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s62b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s62b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s63"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s63_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s64a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s64a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s64b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s64b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="doctors"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s100_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="clinic"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s101_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s102"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s102_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="shop" v="hardware"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s103_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="telephone"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s104_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="amenity" v="fuel"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s105_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s106"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s106_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="tourism" v="camp_site"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s107_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s107"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s107_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s108"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s108_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s109"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s109_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s110"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s110_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s111"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s111_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s112"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s112_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s113"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s113_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s114"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s114_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s115"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s115_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s116"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s116_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s117"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s117_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s118"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s118_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s119"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s119_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s120"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s120_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s121"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s121_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s122"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s122_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s123"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s123_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s124"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s124_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s125"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s125_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s126"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s126_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s200"/>
+<condition k="junction" v="roundabout"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s200_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s200"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s200_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s220"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s220_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s222"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s222_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s222a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s222a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s225"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s225_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s230"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s230a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s230a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s232"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s232_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s232a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s232a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s235"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s235_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s235a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s235a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s242"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s242_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s242a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s242a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s250"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s250_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s260"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s260_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s261"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s261_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s263"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s263_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s263a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s263a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s310"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s310_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s310,"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s310_f.png" priority="10000" />
+</rule>
+<rule>
+<condition k="traffic_sign" v="ES:s310;"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s310_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s320"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s320_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s351"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s351_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="city_limit"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s500_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s510"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s510_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s520"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s520_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s540"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s540_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s570"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s570_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s570a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s570a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s571"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s571_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s572"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s572_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s573"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s573_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s574_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574a"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s574a_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s574b"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s574b_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s575"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s575_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s600"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s600_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s602"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s602_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s610"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s610_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s700"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s700_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s710"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s710_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s720"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s720_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s730"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s730_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s740"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s740_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s750"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s750_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s760"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s760_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s770"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s770_f.png" priority="10000" />
+</rule>
+
+<!-- Aquí comencen les catalanes -->
+
+<rule>
+<condition k="traffic_sign" v="CAT:radar"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_radar_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,,"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,,,"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230b,"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s230,ES:com:s800"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s230_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s300"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s300_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s351"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s351_f.png" priority="10000" />
+</rule>
+
+
+<rule>
+<condition k="traffic_sign" v="CAT:s600"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s600_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:s700"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_s700_f.png" priority="10000" />
+</rule>
+
+<!-- Aquí comencen les suplementàries -->
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s800"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s800_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s820"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s820_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s821"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s821_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s830"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s830_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s840"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s840_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s850"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s850_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s851"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s851_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s852"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s852_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s853"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s853_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:com:s860"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_com_s860_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="CAT:com:s860;ES:p50"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/CAT_com_s860_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:com:s870"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_com_s870_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left:2"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:left:3"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_left_3_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right:2"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_2_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:dir:right:3"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_dir_right_3_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:panel:light"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_panel_light_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:road:beacon:big"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_road_beacon_big_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:road:beacon:little"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_road_beacon_little_f.png" priority="10000" />
+</rule>
+
+<rule>
+<condition k="traffic_sign" v="ES:s900"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s900_f.png" priority="10000" />
+        </rule>
+
+		<rule>
+<condition k="traffic_sign" v="ES:s920"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s920_f.png" priority="10000" />
+        </rule>
+<rule>
+<condition k="traffic_sign" v="ES:s940"/>
+<condition k="side" v="right"/>
+<icon src="traffic_signs/ES/ES_s940_f.png" priority="10000" />
+        </rule>
+
+
+<!-- Proves a partir d'aquí.  -->
+
+<rule>
+<condition k="highway" v="milestone"/>
+<icon src="traffic_signs/ES/ES_s573_f.png" priority="10000" />
+        </rule>		
+</rules>

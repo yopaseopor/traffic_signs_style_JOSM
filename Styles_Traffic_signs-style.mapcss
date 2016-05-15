@@ -48530,7 +48530,7 @@ icon-image:"traffic_signs/BE/BE_E9h.png" ;
 node["traffic_sign"="BE:E9i"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/BE/BE_E9i.png"  
+icon-image:"traffic_signs/BE/BE_E9i.png  
 }
 
 node["traffic_sign:forward"="BE:E9i"]["side"="left"]{

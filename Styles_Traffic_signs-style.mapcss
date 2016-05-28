@@ -8448,6 +8448,100 @@ icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOS
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+node["traffic_sign"="DE:241"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:forward"="DE:241"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:forward"="DE:241"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:forward"="DE:241"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:backward"="DE:241"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:backward"="DE:241"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+node["traffic_sign:backward"="DE:241"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_241.png" ; 
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+node["traffic_sign"="DE:250"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:forward"="DE:250"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:forward"="DE:250"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:forward"="DE:250"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:backward"="DE:250"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:backward"="DE:250"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+node["traffic_sign:backward"="DE:250"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_250.png" ; 
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 
 node["traffic_sign"="DE:267"]{
 icon-offset-x:"-2" ;
@@ -8685,7 +8779,51 @@ icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOS
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 
+node["traffic_sign"="DE:325.1"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
 
+node["traffic_sign:forward"="DE:325.1"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+node["traffic_sign:forward"="DE:325.1"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+node["traffic_sign:forward"="DE:325.1"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+node["traffic_sign:backward"="DE:325.1"]["side"="left"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+node["traffic_sign:backward"="DE:325.1"]["side"="right"]{
+icon-offset-x:"20" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+node["traffic_sign:backward"="DE:325.1"]["side"="both"]{
+icon-offset-x:"-2" ;
+icon-width:"20" ;
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_325.1.png" ; 
+}
+
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 /*---------------------SPAIN-------------------------*/

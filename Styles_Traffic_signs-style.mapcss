@@ -8670,13 +8670,13 @@ icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOS
 node["traffic_sign:backward"="DE:274.1[30]"]["side"="right"]{
 icon-offset-x:"20" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274.1[30].png" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274.1[30].png" ; 
 }
 
 node["traffic_sign:backward"="DE:274.1[30]"]["side"="both"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274.1[30].png" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274.1[30].png" ; 
 }
 
 
@@ -8718,13 +8718,13 @@ icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOS
 node["traffic_sign:backward"="DE:274[30]"]["side"="right"]{
 icon-offset-x:"20" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274[30].svg" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274[30].svg" ; 
 }
 
 node["traffic_sign:backward"="DE:274[30]"]["side"="both"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274[30].svg" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274[30].svg" ; 
 }
 
 
@@ -8766,13 +8766,13 @@ icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOS
 node["traffic_sign:backward"="DE:274[70]"]["side"="right"]{
 icon-offset-x:"20" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274[70].svg" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274[70].svg" ; 
 }
 
 node["traffic_sign:backward"="DE:274[70]"]["side"="both"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE/DE_274[70].svg" ; 
+icon-image:"https://raw.githubusercontent.com/yopaseopor/traffic_signs_style_JOSM/master/traffic_signs/DE/DE_274[70].svg" ; 
 }
 
 

@@ -1,7 +1,7 @@
 import unittest
 from tinycss.css21 import CSS21Parser
 import requests
-
+import os
 
 class TestCSS(unittest.TestCase):
  
@@ -27,10 +27,13 @@ class TestCSS(unittest.TestCase):
         for rule in stylesheet.rules:
             for declaration in rule.declarations:
                 if declaration.name == 'icon-image':
-                    resp = requests.get(declaration.value[0].value)
-                    if resp.status_code != 200:
-                        print 'problem geting image {} code {}'.format(declaration.value[0].value, resp.status_code)
-                        return False
+                    if str(declaration.value[0].value).startswith('http://') or str(declaration.value[0].value).startswith('https://'):
+                        resp = requests.get(declaration.value[0].value)
+                        if resp.status_code != 200:
+                            print 'problem geting image {} code {}'.format(declaration.value[0].value, resp.status_code)
+                        self.assertTrue(resp.status_code == 200)
+                    else:
+                        self.assertTrue(os.path.isfile(declaration.value[0].value))
 
 
 if __name__ == '__main__':

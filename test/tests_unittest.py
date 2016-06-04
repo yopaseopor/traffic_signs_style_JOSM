@@ -34,7 +34,7 @@ class TestCSS(unittest.TestCase):
                         self.assertTrue(resp.status_code == 200)
                     else:
                         if not os.path.isfile(declaration.value[0].value):
-                            print 'file not found: {}'.format(os.path.isfile(declaration.value[0].value))
+                            print 'file not found: {}'.format(declaration.value[0].value)
                         self.assertTrue(os.path.isfile(declaration.value[0].value))
 
 

@@ -53576,43 +53576,43 @@ icon-image:"traffic_signs/FI/FI_417.png" ;
 node["traffic_sign"="FI:423"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:forward"="FI:423"]["side"="left"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:forward"="FI:423"]["side"="right"]{
 icon-offset-x:"20" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:forward"="FI:423"]["side"="both"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:backward"="FI:423"]["side"="left"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:backward"="FI:423"]["side"="right"]{
 icon-offset-x:"20" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 node["traffic_sign:backward"="FI:423"]["side"="both"]{
 icon-offset-x:"-2" ;
 icon-width:"20" ;
-icon-image:"traffic_signs/FI/FI_423.jpg" ; 
+icon-image:"traffic_signs/FI/FI_423.png" ; 
 }
 
 /*---------------------------------------------------------------------------------*/

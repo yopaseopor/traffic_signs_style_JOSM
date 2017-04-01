@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/yopaseopor/traffic_signs_style_JOSM.svg?branch=master)](https://travis-ci.org/yopaseopor/traffic_signs_style_JOSM)
 # traffic_signs_style_JOSM
-Translated project from JOSM Styles due to exceed limit and expand to other countries.
+Style Traffic signs show more than 9000 traffic signs of the 35 countries mentioned in [https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging#Traffic_signs_presets this URL]. It places traffic sign on the chosen side and it shows also subkey :2 traffic signs if each traffic sign is in a different node. It is splitted in some parts. There is Traffic_signs_AME for all the American countries and Traffic_signs_EUR for the rest of the World. 
+
+
 You can download the betas here:
 
 -https://github.com/yopaseopor/beta_preset_josm/archive/master.zip
